@@ -140,7 +140,7 @@ function Questionary({ location }) {
                 updateMsg(true)
             }).catch((err) => { console.log("err") })
         } else {
-            alert('invalid')
+            toast.warn('invalid')
         }
     }
     return (
